@@ -27,7 +27,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/example/alerts/icons/icons.component.scss",
+              "src/example/animations/animations.component.scss",
+              "src/example/badge/dismissable/dismissable.component.scss",
+              "src/example/badge/standard/standard.component.scss",
+              "src/example/button-group/sizes/sizes.component.scss",
+              "src/example/button-group/standard/standard.component.scss",
+              "src/example/button/button.component.scss",
+              "src/example/cards/columns/columns.component.scss",
+              "src/example/checkboxes-and-slide-toggles/highlight-error/highlight-error.component.scss",
+              "src/example/modals/scroll/scroll.component.scss",
+              "src/example/modals/standard/standard.component.scss",
+              "src/example/skeleton-loader/advanced/advanced.component.scss",
+              "src/example/skeleton-loader/form/form.component.scss",
+              "src/example/spinner/button/button.component.scss",
+              "src/example/spinner/standard/standard.component.scss",
+              "src/example/tables/horizontal-scroll/horizontal-scroll.component.scss",
+              "src/example/tooltip/standard/standard.component.scss"
             ],
             "scripts": []
           },

@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "../scss/bootstrap";
-@import "~@sebgroup/ngx-toastr/scss/ngx-toastr";
-@import "~@sebgroup/ng-bootstrap/scss/ng-bootstrap";
+@import "@sebgroup/ngx-toastr/scss/ngx-toastr";
+@import "@sebgroup/ng-bootstrap/scss/ng-bootstrap";
 
 $exemplify-font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default; // default font-family
 $exemplify-code-font-size: 14px !default; // default font size for code snippet
