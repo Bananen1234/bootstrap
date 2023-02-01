@@ -123,7 +123,6 @@
       }
     }
   },
-  "defaultProject": "bootstrap",
   "schematics": {
     "@schematics/angular:component": {
       "style": "scss"
