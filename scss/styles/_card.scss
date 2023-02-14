@@ -268,18 +268,25 @@
 .accordion {
   overflow-anchor: none;
 
-  > .card {
+  > .accordion-item {
     overflow: hidden;
-    box-shadow: none;
-    border-top: $accordion-border-color solid $accordion-border-width;
-    border-bottom: $accordion-border-color solid $accordion-border-width;
-    margin-bottom: 0 !important;
-    background-color: $accordion-body-bg;
-    &+ .card {
-      border-top: none;
+
+    &:not(:last-of-type) {
+      border-bottom: 0;
+      @include border-bottom-radius(0);
+    }
+
+    &:not(:first-of-type) {
+      @include border-top-radius(0);
+    }
+
+    > .accordion-header {
+      @include border-radius(0);
+      margin-bottom: -$card-border-width;
     }
   }
 }
+
 
 
 // SEB Specific styles for card
